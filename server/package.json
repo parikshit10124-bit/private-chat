@@ -1,0 +1,24 @@
+{
+  "name": "private-chat-server",
+  "version": "1.0.0",
+  "description": "Production-grade, highly secure 1-on-1 private messaging backend with WebSockets and E2EE support",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.23.1",
+    "socket.io": "^4.8.1"
+  }
+}

@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+client/dist/
+dist/
+
+# Environment variables
+.env
+server/.env
+client/.env
+*.env.local
+.env*.local
+
+# Local database and media uploads
+server/data/
+server/uploads/*
+!server/uploads/.gitkeep
+
+# IDE, OS and Deployment files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+.vercel/

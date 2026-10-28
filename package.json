@@ -1,0 +1,25 @@
+{
+  "name": "private-1on1-secure-messenger",
+  "version": "1.0.0",
+  "description": "Production-ready, highly secure 1-on-1 private messaging web application inspired by WhatsApp and Signal",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "build:client": "npm --prefix client run build",
+    "dev": "node server/server.js",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "chat",
+    "e2ee",
+    "signal",
+    "whatsapp",
+    "socket.io",
+    "react",
+    "tailwind",
+    "security"
+  ],
+  "author": "",
+  "license": "MIT"
+}
